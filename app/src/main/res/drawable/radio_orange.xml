@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_checked="false">
+        <shape android:shape="oval">
+            <!-- 实心 -->
+            <solid android:color="@color/orange"/>
+            <size android:width="48dp"
+                android:height="48dp" />
+            <!-- 渐变 -->
+            <!--<gradient-->
+            <!--android:startColor="#ff8c00"-->
+            <!--android:endColor="#FFFFFF"-->
+            <!--android:angle="270" />-->
+            <!-- 描边 -->
+            <!--<stroke-->
+            <!--android:width="5dp"-->
+            <!--android:color="@color/select" />-->
+            <!-- 圆角 -->
+            <!--<corners-->
+                <!--android:radius="24dp" />-->
+            <!--<padding-->
+            <!--android:left="24dp"-->
+            <!--android:top="24dp"-->
+            <!--android:right="24dp"-->
+            <!--android:bottom="24dp" />-->
+        </shape>
+    </item>
+
+    <item
+        android:state_checked="true">
+        <shape android:shape="oval">
+            <!-- 实心 -->
+            <solid android:color="@color/orange"/>
+            <size android:width="48dp"
+                android:height="48dp" />
+            <!-- 描边 -->
+            <stroke
+                android:width="5dp"
+                android:color="@color/select" />
+            <!-- 渐变 -->
+            <!--<gradient-->
+            <!--android:startColor="#ff8c00"-->
+            <!--android:endColor="#FFFFFF"-->
+            <!--android:angle="270" />-->
+            <!-- 圆角 -->
+            <!--<corners-->
+                <!--android:radius="24dp" />-->
+            <!--<padding-->
+            <!--android:left="24dp"-->
+            <!--android:top="24dp"-->
+            <!--android:right="24dp"-->
+            <!--android:bottom="24dp" />-->
+        </shape>
+    </item>
+</selector>
